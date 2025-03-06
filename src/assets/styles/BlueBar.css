@@ -1,0 +1,9 @@
+.blueBar{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #2e2d2d;
+}
