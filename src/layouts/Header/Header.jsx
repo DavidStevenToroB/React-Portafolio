@@ -1,23 +1,32 @@
 import React from 'react'
-import { NavBar } from "../NavBar/NavBar"
-import { LiNavBar } from "../../Components/LiNavBar/LiNavBar";
-import '../../assets/styles/BlueBar.css'
 import './Header.css'
+import { NavBar } from '../NavBar/NavBar'
+import {
+        FaLinkedin,
+        FaWhatsapp,
+        FaInstagram
+       } from 'react-icons/fa'
+import { LiNavBar } from "../../Components/LiNavBar/LiNavBar";
 
 
 export const Header = () => {
     return (
-        <header className='blueBar' id='header'>
-            <h1>Instrucciones react 2025</h1>
-            <NavBar>
+        <header >
+            <NavBar style={'NavBar'}>
                 <ul>
-                    <LiNavBar route={'/'} style={'a'} content='home'/>
-                    <LiNavBar route={'/class1'} style={'a'} content='clase1'/>
-                    <LiNavBar route={'class2'} style={'a'} content='clase2'/>
+                    <LiNavBar route={"/"} style={'a'} content='Inicio' />
+                    <LiNavBar route={"/skills"} style={'a'} content='Habilidades ' />
+                    <LiNavBar route={"/experiences"} style={'a'} content='Experiencia ' />
+                </ul>
+            </NavBar>
+            <NavBar style={'NavBarNtworks'}>
+                <ul>
+                    <LiNavBar route={"/linkedin"} style={'a'} content={<FaLinkedin className='icons'/>} />
+                    <LiNavBar route={"/whatsapp"} style={'a'} content={<FaWhatsapp className='icons'/>} />
+                    <LiNavBar route={"/instagram"} style={'a'} content={<FaInstagram className='icons'/>} />
                 </ul>
             </NavBar>
         </header>
     )
 }
-
 

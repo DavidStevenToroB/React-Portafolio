@@ -1,12 +1,10 @@
 import React from 'react'
-import './NavBar.css'
 
-export const NavBar = ({ children }) => {
+export const NavBar = ({ style ,children }) => {
     return (
-        <nav className='navBar'>
+        <nav className={style}>
             {children}
         </nav>
     )
 }
-
 

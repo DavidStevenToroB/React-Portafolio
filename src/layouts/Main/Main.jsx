@@ -1,13 +1,12 @@
 import React from 'react'
 import './Main.css'
 
-export const Main = ({content}) => {
+
+export const Main = ({style, children}) => {
   return (
-    <main className='main'>
-            <h2>BLASPHEMOUS</h2>
-            <img src={content} alt="penitente" />
-    </main>
+    <section className={style}>
+      {children}
+    </section>
   )
 }
-
 
