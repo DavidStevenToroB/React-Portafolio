@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    height: 8%;
+    height: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,13 +16,17 @@ header{
     display: flex;
     justify-content: center;
 }
-a{
-    color: #fff;
-    text-decoration: none;
-    list-style: none;
-}
 ul{
     width: 30%;
     display: flex;
     justify-content: space-between;
+}
+.a{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.a:hover{
+    color: #cfcccc;
 }
