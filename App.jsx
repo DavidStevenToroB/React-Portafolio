@@ -15,8 +15,8 @@ export const App = () => {
       <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/Skills" element={<Skills />} />
+          <Route path="/Experiences" element={<Experiences />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       <Footer />

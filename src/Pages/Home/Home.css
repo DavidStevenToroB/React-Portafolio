@@ -34,14 +34,14 @@ Main{
     font-weight: 100;   
 }
 .pMedium::before{
-    content: 'Me llamo David';
+    content: 'Soy David...';
 }
 .pMedium:hover::before{
     display: block;
     width: 100%;
     color: #ada8a8;
     font-weight: 700;
-    content: 'Me llamo David Steven Toro Bejarano';
+    content: 'Soy David Steven Toro Bejarano';
 }
 .p{
     font-size: 25px;
