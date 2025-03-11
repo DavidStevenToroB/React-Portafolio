@@ -1,3 +1,45 @@
 .pIcons{
     font-size: 50px;
+    color: black;
+}
+.pIcons:hover::before{
+    font-size: 100px;
+}
+.sectionSkills{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.divContainer{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    background-color: rgba(179, 176, 176, 0.63);
+}
+.aside{
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#sectionSkills{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.02px;
+}
+#h2{
+    font-size: 50px;
 }
