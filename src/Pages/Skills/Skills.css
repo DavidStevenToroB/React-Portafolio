@@ -33,27 +33,30 @@
     font-size: 35px;
     color: rgb(255, 255, 255);
 }
-.divContainer:hover::before{
-    font-size: 100px;
-    color: blue;
-}
 .sectionSkills{
-    width: 100%;
-    height: 100%;
+    max-width: 1000px;
+    height: 100vh;
+    padding: 0 0 50px 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 100px;
 }
 .divContainer{
-    width: 20%;
+    width: 300px;
     height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 30px 0 30px 0;
-    border: 2px solid #fff;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-left: 6px solid #ffffffc5;
+    border-bottom: 2px solid #fff;
 }
 .aside{
     width: 80%;
@@ -65,32 +68,34 @@
     background-color: transparent;
 }
 .divContainer > div {
-    width: 100%;
+    width: 98%;
     height: 40%;
+    padding: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 30px 0 30px 0px;
-    border-bottom: 1px solid #fff;
+    align-items: start;
+    border-radius: 26px 0 30px 0px;
+    border-bottom: 4px solid #ffffffc5;
     background-color: rgba(179, 176, 176, 0.404);
 }
 #sectionSkills{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0.02px;
+    gap: 20px;
 }
 #h2{
+    text-align: center;
     font-size: 50px;
-}
-#divContainerEn{
-    width: 30%;
-    margin-bottom: 20px;
 }
 #pIcons{ 
     margin-top: 10px;
     font-size: 50px;
+    transition: .5s;
+}
+#pIcons:hover{
+    transform: scale(1.5);
 }
