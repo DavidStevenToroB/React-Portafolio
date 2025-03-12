@@ -4,8 +4,9 @@ import { PText } from "../../Components/PText/PText"
 import {
   FaAngular,
   FaGithub,
+  FaGitAlt,
   FaReact,
-  FaJava,
+  FaJava
 } from 'react-icons/fa'
 import {
   RiJavascriptFill
@@ -23,41 +24,52 @@ import './Skills.css'
 export const Skills = () => {
   return (
     <Main style={'sectionSkills'} >
-      <h2 id='h2'>Habilidades</h2>
+      <h2 id='h2'>Mis Habilidades</h2>
       <section id='sectionSkills'>
         <div className='divContainer'>
-          <h2>Lenguajes de programacion</h2>
+          <div>
+            <h2>Lenguajes de programacion</h2>
+          </div>
           <aside className='aside'>
-            <PText style={'pIcons'} contentText={<RiJavascriptFill className='icons' />} />
-            <PText style={'pIcons'} contentText={<FaJava className='icons' />} />
+            <PText style={'js'} id={'pIcons'} contentText={<RiJavascriptFill className='icons' />} />
+            <PText style={'java'} id={'pIcons'} contentText={<FaJava className='icons' />} />
           </aside>
         </div>
         <div className='divContainer'>
-          <h2>FrameWorks</h2>
+          <div>
+            <h2>FrameWorks</h2>
+          </div>
           <aside className='aside'>
-            <PText style={'pIcons'} contentText={<FaReact className='icons' />} />
-            <PText style={'pIcons'} contentText={<FaAngular className='icons' />} />
-            <PText style={'pIcons'} contentText={<BiLogoSpringBoot className='icons' />} />
+            <PText style={'react'} id={'pIcons'} contentText={<FaReact className='icons' />} />
+            <PText style={'angular'} id={'pIcons'} contentText={<FaAngular className='icons' />} />
+            <PText style={'springboot'} id={'pIcons'} contentText={<BiLogoSpringBoot className='icons' />} />
           </aside>
         </div>
         <div className='divContainer'>
-          <h2>Herramientas de Desarrollo</h2>
+          <div>
+            <h2>Herramientas de Desarrollo</h2>
+          </div>
           <aside className='aside'>
-            <PText style={'pIcons'} contentText={<FaGithub className='icons' />} />
-            <PText style={'pIcons'} contentText={<BiLogoVisualStudio className='icons' />} />
+            <PText style={'git'} id={'pIcons'} contentText={<FaGitAlt className='icons' />} />
+            <PText style={'gitHub'} id={'pIcons'} contentText={<FaGithub className='icons' />} />
+            <PText style={'vs'} id={'pIcons'} contentText={<BiLogoVisualStudio className='icons' />} />
           </aside>
         </div>
         <div className='divContainer'>
-          <h2>Bases de Datos</h2>
+          <div>
+            <h2>Bases de Datos</h2>
+          </div>
           <aside className='aside'>
-            <PText style={'pIcons'} contentText={<SiMysql className='icons' />} />
-            <PText style={'pIcons'} contentText={<SiMongodb className='icons' />} />
+            <PText style={'mysql'} id={'pIcons'} contentText={<SiMysql className='icons' />} />
+            <PText style={'mongo'} id={'pIcons'} contentText={<SiMongodb className='icons' />} />
           </aside>
         </div>
-        <div className='divContainer'>
-          <h2>Nivel de Ingles</h2>
+        <div className='divContainer' id='divContainerEn'>
+          <div>
+            <h2>Nivel de Ingles</h2>
+          </div>
           <aside className='aside'>
-            <PText style={'pIcons'} contentText={'B1'} />
+            <PText style={'pEn'} id={'pIcons'} contentText={'B1'} />
           </aside>
         </div>
       </section>

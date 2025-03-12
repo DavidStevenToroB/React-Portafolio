@@ -1,9 +1,41 @@
-.pIcons{
-    font-size: 50px;
-    color: black;
+
+.js{
+    color: #EFD81D; 
 }
-.pIcons:hover::before{
+.java{
+    color: #0A8AC9
+}
+.react{
+    color: #00DCFF
+}
+.angular{
+    color: #D6002F
+}
+.springboot{
+    color: #6AAD3D
+}
+.git{
+    color: #E84D31
+}
+.gitHub{
+    color: #fff
+}
+.vs{
+    color: #01ACEE
+}
+.mysql{
+    color: #E48E00
+}
+.mongo{
+    color: #00ED64
+}
+.pEn{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.divContainer:hover::before{
     font-size: 100px;
+    color: blue;
 }
 .sectionSkills{
     width: 100%;
@@ -15,21 +47,32 @@
 }
 .divContainer{
     width: 20%;
-    height: 20%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 30px 0 30px 0;
     border: 2px solid #fff;
-    background-color: rgba(179, 176, 176, 0.63);
 }
 .aside{
     width: 80%;
+    height: 80%;
     margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: transparent;
+}
+.divContainer > div {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0 30px 0px;
+    border-bottom: 1px solid #fff;
+    background-color: rgba(179, 176, 176, 0.404);
 }
 #sectionSkills{
     width: 100%;
@@ -41,5 +84,13 @@
     gap: 0.02px;
 }
 #h2{
+    font-size: 50px;
+}
+#divContainerEn{
+    width: 30%;
+    margin-bottom: 20px;
+}
+#pIcons{ 
+    margin-top: 10px;
     font-size: 50px;
 }
