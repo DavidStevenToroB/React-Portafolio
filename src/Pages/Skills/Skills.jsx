@@ -24,11 +24,11 @@ import './Skills.css'
 export const Skills = () => {
   return (
     <Main style={'sectionSkills'} >
-      <h2 id='h2'>Mis Habilidades</h2>
+      <h2 id='h2'>MIS HABILIDADES</h2>
       <section id='sectionSkills'>
         <div className='divContainer'>
           <div>
-            <h2>Lenguajes de programacion</h2>
+            <h2>Lenguajes de Programacion</h2>
           </div>
           <aside className='aside'>
             <PText style={'js'} id={'pIcons'} contentText={<RiJavascriptFill className='icons' />} />

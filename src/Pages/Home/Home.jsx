@@ -13,7 +13,7 @@ export const Home = () => {
         <div className='divP'>
           <PText style={'pMajor'} contentText={'Hola!'} />
           <PText style={'pMedium'} contentText={''} />
-          <PText style={'p'} contentText={'Analista y desarrollador de software, mi fuerte en la programacion web es el Backend. Me enfoco en crear una experiencia más sencilla al usuario, garantizo un sistema confiable y seguro; todo esto de una manera intuitiba. Mis leguajes fuertes son: Java, JavaScript y Python. Tambien poseo una buena coneccion con herramientas de marcada: css y html. En mi experiencia como desarrollador, me he destacado por la rapida solucion de confiltos o problemas, ya sea en la cración de algoritmos o por fuera de estos. '} />
+          <PText style={'p'} contentText={'Analista y desarrollador de software; donde mi especialidad en la programacion web es el Backend, en el cual me enfoco en crear una experiencia más accesible para el usuario, garantizando un sistema confiable, seguro e intuitivo. Los lenguajes de programación donde mayormente me destaco son: Java y JavaScript. Adicionalmente a lo anteriormente expuesto, poseo una adecuada conexion con herramientas de marcada: css y html. Por ultimo, en mi experiencia como desarrollador, me he destacado por la agil solucion de conflictos y/o problemas, ya sea en la creación de algoritmos o por fuera de estos. '} />
         </div>
       </Main>
   )
