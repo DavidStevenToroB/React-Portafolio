@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
-import imgMe from '../../assets/Img/image.png'
+import imgMe from '../../assets/Img/imgme.png'
 import { Main } from '../../layouts/Main/Main'
-import { PText } from "../../Components/PText/PText";
+import { PText } from "../../Components/PText/PText"
 
 
 

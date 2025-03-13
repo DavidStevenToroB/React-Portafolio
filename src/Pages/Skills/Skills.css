@@ -1,39 +1,4 @@
-
-.js{
-    color: #EFD81D; 
-}
-.java{
-    color: #0A8AC9
-}
-.react{
-    color: #00DCFF
-}
-.angular{
-    color: #D6002F
-}
-.springboot{
-    color: #6AAD3D
-}
-.git{
-    color: #E84D31
-}
-.gitHub{
-    color: #fff
-}
-.vs{
-    color: #01ACEE
-}
-.mysql{
-    color: #E48E00
-}
-.mongo{
-    color: #00ED64
-}
-.pEn{
-    font-size: 35px;
-    color: rgb(255, 255, 255);
-}
-.sectionSkills{
+.sectionSkills {
     max-width: 1000px;
     height: 100vh;
     padding: 0 0 50px 0;
@@ -43,9 +8,10 @@
     align-items: center;
     flex-wrap: wrap;
     align-content: center;
-    gap: 100px;
+    gap: 20px;
 }
-.divContainer{
+
+.divContainer {
     width: 300px;
     height: 30%;
     display: flex;
@@ -58,16 +24,17 @@
     border-left: 6px solid #ffffffc5;
     border-bottom: 2px solid #fff;
 }
-.aside{
+
+.aside {
     width: 80%;
     height: 80%;
-    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: transparent;
 }
-.divContainer > div {
+
+.divContainer>div {
     width: 98%;
     height: 40%;
     padding: 5px;
@@ -78,24 +45,79 @@
     border-bottom: 4px solid #ffffffc5;
     background-color: rgba(179, 176, 176, 0.404);
 }
-#sectionSkills{
+
+.pSkills{
+    font-size: 25px;
+    color: #bebbbb;
+    text-align: center;
+}
+
+.js {
+    color: #EFD81D;
+}
+
+.java {
+    color: #0A8AC9
+}
+
+.react {
+    color: #00DCFF
+}
+
+.angular {
+    color: #D6002F
+}
+
+.springboot {
+    color: #6AAD3D
+}
+
+.git {
+    color: #E84D31
+}
+
+.gitHub {
+    color: #fff
+}
+
+.vs {
+    color: #01ACEE
+}
+
+.mysql {
+    color: #E48E00
+}
+
+.mongo {
+    color: #00ED64
+}
+
+.pEn {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+#sectionSkills {
     width: 100%;
     height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
-#h2{
+
+#h2 {
     text-align: center;
     font-size: 50px;
 }
-#pIcons{ 
+
+#pIcons {
     margin-top: 10px;
     font-size: 50px;
     transition: .5s;
 }
-#pIcons:hover{
-    transform: scale(1.5);
+
+#pIcons:hover {
+    transform: scale(1.2);
 }

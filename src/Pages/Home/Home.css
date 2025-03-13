@@ -1,11 +1,12 @@
-Main{
+Main {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section{
+
+.section {
     width: fit-content;
     height: fit-content;
     margin-top: 5%;
@@ -14,38 +15,46 @@ Main{
     align-items: start;
     flex-wrap: wrap;
 }
-.img{
+
+.img {
     height: 70%;
     margin-right: 40px;
     border-radius: 100px;
-    transition: .5s;
+    transition: .7s;
 }
-.img:hover{
+
+.img:hover {
     transform: scale(1.2);
 }
-.divP{
+
+.divP {
     width: 40%;
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-.pMajor{
+
+.pMajor {
     font-size: 100px;
     font-weight: 700;
     transition: 0.8s;
 }
-.pMajor:hover{
+
+.pMajor:hover {
     transform: scale(1.2);
 }
-.pMedium{
+
+.pMedium {
     width: 100%;
     font-size: 70px;
-    font-weight: 100;   
+    font-weight: 100;
 }
-.pMedium::before{
+
+.pMedium::before {
     content: 'Soy David...';
 }
-.pMedium:hover::before{
+
+.pMedium:hover::before {
     transition: 2s;
     display: block;
     width: 100%;
@@ -53,17 +62,19 @@ Main{
     content: 'Soy David Steven Toro Bejarano';
     transform: scale(1.01);
 }
-.p{
+
+.p {
     font-size: 25px;
+    text-align: justify;
     color: #bebbbb;
 }
 
-@media screen and (max-width: 1350px){
-    .img{
+@media screen and (max-width: 1350px) {
+    .img {
         margin-right: 0px;
     }
-        
-    .section{
+
+    .section {
         width: fit-content;
         height: fit-content;
         margin-top: 5%;

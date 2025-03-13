@@ -25,6 +25,7 @@ export const Skills = () => {
   return (
     <Main style={'sectionSkills'} >
       <h2 id='h2'>MIS HABILIDADES</h2>
+      <PText style={'pSkills'} contentText={'Mis herramientas y tecnologías, seleccionadas por su facilidad, calidad y demanda en el mercado, me permiten crear soluciones eficientes, confiables y accesibles para el usuario.'} />
       <section id='sectionSkills'>
         <div className='divContainer'>
           <div>
