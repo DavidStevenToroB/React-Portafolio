@@ -46,7 +46,7 @@
     background-color: rgba(179, 176, 176, 0.404);
 }
 
-.pSkills{
+.pSkills {
     font-size: 25px;
     color: #bebbbb;
     text-align: center;
@@ -120,4 +120,56 @@
 
 #pIcons:hover {
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 1279px) {
+    .sectionSkills {
+        max-width: 1000px;
+        height: 100vh;
+        padding: 25px 0 25px 0;
+    }
+
+    .pSkills {
+        width: 80%;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .sectionSkills {
+        max-width: 90%;
+        padding: 35px 0 35px 0;
+    }
+
+}
+
+@media screen and (max-width: 920px) {
+    .sectionSkills {
+        padding: 400px 0 400px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sectionSkills {
+        padding: 550px 0 550px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sectionSkills {
+        padding: 580px 0 580px 0;
+
+    }
+
+    .pSkills {
+        font-size: 20px;
+    }
+
+    #sectionSkills {
+        gap: 30px;
+    }
+
+    #h2 {
+        font-size: 45px;
+    }
 }

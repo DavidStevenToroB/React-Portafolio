@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body, #root {
@@ -19,3 +20,9 @@ body, #root {
     background-color: #1B1B1B;
 
 }
+/* 
+@media screen and (max-width: 1279px) {
+    body, #root {
+        width: vw;
+    }
+} */
